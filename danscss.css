@@ -1,0 +1,63 @@
+ * {
+            margin: 0;
+            padding: 0;
+          }
+          header {
+            background-color: #ff69b4;
+            color:yellow;
+            text-align: center;
+            padding: 20px;
+          }
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            
+          }
+          marquee {
+            color: #ff69b4;
+            font-size: 24px;
+            font-weight: bold;
+          }
+          img {
+            width: 45%;
+            height: 500px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+          }
+          img:hover {
+                        box-shadow: 0 0 10px rgb(255, 255, 132);
+          }
+          div ul li{
+            font-size: 30px;
+          }
+          .buttons ul li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding-bottom: 20px;
+          }
+          .buttons ul li button {
+          width: 100%;
+          background-color: yellow;
+          color: black;
+          height: 60px;
+          }
+          .buttons ul li a button {
+          width: 800px;
+          height: 60px;
+          }
+
+          .marq{
+            background-color: black;
+            width: 100%;
+            height: auto;
+
+          }
+            #message {
+              font-size: 20px;
+              writing-mode: justify;
+            }
+        
